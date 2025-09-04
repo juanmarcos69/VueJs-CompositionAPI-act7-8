@@ -4,7 +4,7 @@ const posts = [
     id: 1,
     title: "Post Title 1",
     body: "This is the body of post number 1.",
-    author: "John Doe",
+    author: "Jeek Ian",
     created_at: "2024-10-01",
     is_saved: false,
   },
@@ -202,7 +202,7 @@ const posts = [
     color: #fff;
     font-weight: 300;
     border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem; 
+    border-top-right-radius: 1rem;
 
     .actions {
       display: flex;
