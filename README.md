@@ -1,3 +1,6 @@
+
+![Uploading Screenshot 2025-09-10 210339.png…]()
+
 # blog-vue
 
 This template should help get you started developing with Vue 3 in Vite.
