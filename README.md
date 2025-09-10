@@ -1,5 +1,5 @@
-
-![Screenshot](https://github.com/Jeek11/blog-vue/issues/1/attach-screenshot-link-here.png)
+![My Screenshot](<img width="1909" height="767" alt="Screenshot 2025-09-10 210339" src="https://github.com/user-attachments/assets/eb485f80-d402-4ffd-b52e-a2dc9dc571b6" />
+)
 
 # blog-vue
 
