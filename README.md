@@ -1,5 +1,5 @@
 
-![Uploading Screenshot 2025-09-10 210339.png…]()
+![Screenshot](https://github.com/Jeek11/blog-vue/issues/1/attach-screenshot-link-here.png)
 
 # blog-vue
 
