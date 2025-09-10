@@ -1,4 +1,9 @@
 <script setup>
+
+import PostItem from '@/components/PostItem.vue'
+import MyWrapper from '@/components/MyWrapper.vue'
+
+
 const posts = [
   {
     id: 1,
@@ -165,89 +170,8 @@ const posts = [
 
 <template>
   <div v-for="post in posts" :key="post.id">
-    <div class="wrapper">
-      <div class="header">
-        <span>Written by {{ post.author }} on {{ post.created_at }}</span>
-        <div class="actions">
-          <button class="del"><span class="material-icons">delete</span></button>
-          <button class="save"><span class="material-icons">bookmark_border</span></button>
-        </div>
-      </div>
-      <h1>{{ post.title }}</h1>
-      <p>{{ post.body }}</p>
-    </div>
+    <MyWrapper>
+        <PostItem :post="post"/>
+      </MyWrapper>
   </div>
 </template>
-
-<style lang="scss" scoped>
-.wrapper {
-  margin: 2rem;
-  background: #fff;
-  box-shadow:
-    rgba(0, 0, 0, 0.1) 0px 1px 10px -3px,
-    rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;
-  border-radius: 1rem;
-  overflow: hidden;
-  padding: 1.5rem;
-
-  .header {
-    font-size: 12px;
-    background: #0288d1;
-    padding: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #fff;
-    font-weight: 300;
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-
-    .actions {
-      display: flex;
-      gap: 0.5rem;
-
-      button {
-        border: none;
-        background: #fff;
-        border-radius: 30px;
-        font-size: 1.2rem;
-        cursor: pointer;
-        padding: 0.3rem 0.6rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition: 0.2s ease-in-out;
-
-        &.del {
-          color: #e74c3c;
-
-          &:hover {
-            background: #fddede;
-            color: #c0392b;
-          }
-        }
-
-        &.save {
-          color: #27ae60;
-
-          &:hover {
-            background: #dff5e4;
-            color: #1e8449;
-          }
-        }
-      }
-    }
-  }
-
-  h1 {
-    margin-bottom: 0.5rem;
-    font-size: 1.5rem;
-    color: #333;
-  }
-
-  p {
-    line-height: 1.6;
-    color: #444;
-  }
-}
-</style>
