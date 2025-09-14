@@ -89,7 +89,7 @@ div {
   button {
     background: #3b82f6;
     color: #fff;
-    width: 100%;
+    width: 101%;
     padding: 5px;
     border-radius: 5px;
     transition: background 0.2s ease;
