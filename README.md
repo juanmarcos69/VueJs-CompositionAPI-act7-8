@@ -1,4 +1,4 @@
-![Comment](https://fonts.gstatic.com/s/i/materialicons/comment/v6/24px.svg)
+![Activity](https://fonts.gstatic.com/s/i/materialicons/bolt/v6/24px.svg)  **Activity**
 # Activity 4
 ![image alt](https://github.com/jeekian11/VueJs-Composition-Act4/blob/43b2fad8a3c1ae386fdce2a633d0f2f0ea6ef346/Screenshot%202025-09-03%20132424.png)
 
