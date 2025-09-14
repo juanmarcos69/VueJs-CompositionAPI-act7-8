@@ -20,9 +20,9 @@ import { Home, PlusCircle } from 'lucide-vue-next'
 
 <style lang="scss" scoped>
 nav {
-  background: #1f2937; /* dark gray */
+  background: #006aff; /* dark gray */
   padding: 1rem 2rem;
-  border-bottom: 1px solid #374151;
+
 
   .nav-link {
     display: inline-flex;
@@ -36,7 +36,7 @@ nav {
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      background: #374151; /* lighter gray */
+      background: #5b5d5b00; /* lighter gray */
       color: #60a5fa;     /* nice blue accent */
     }
   }
