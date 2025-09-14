@@ -5,7 +5,7 @@
 ![image alt](https://github.com/jeekian11/VueJs-Composition-Act4/blob/9a71696bd67221ed916e9a49453c06e1db10bb0d/Screenshot%202025-09-10%20210339.png)
 
 # Activity 6
-![image alt]()
+![image alt](https://github.com/jeekian11/VueJs-Composition-Act4/blob/f9937539fb646c48aa4da01291e50be602f4f82c/Screenshot%202025-09-14%20115808.png)
 # blog-vue
 This template should help get you started developing with Vue 3 in Vite.
 
