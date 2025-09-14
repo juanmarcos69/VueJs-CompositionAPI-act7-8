@@ -8,7 +8,7 @@
 
 
 # ![Activity](https://fonts.gstatic.com/s/i/materialicons/bolt/v6/24px.svg)  **Activity** 6
-![image alt](https://github.com/jeekian11/VueJs-Composition-Act4/blob/f9937539fb646c48aa4da01291e50be602f4f82c/Screenshot%202025-09-14%20115808.png)
+![image alt](https://github.com/jeekian11/VueJs-Project/blob/af98fb64d1b09f722978af003aa18dfa12b0c5f2/Screenshot%202025-09-14%20125719.png)
 
 
 # blog-vue
