@@ -1,4 +1,8 @@
 <script setup>
+import { usesPostStore } from '@/stores/posts'
+
+const postStore = usesPostStore()
+
 
 defineProps({
   post: {
@@ -14,8 +18,10 @@ defineProps({
      <div class="header">
         <span>Written by {{ post.author }} on {{ post.created_at }}</span>
         <div class="actions">
-          <button class="del"><span class="material-icons">delete</span></button>
-          <button class="save"><span class="material-icons">bookmark_border</span></button>
+          <button @click="postStore.deletePost(post.id)" class="del material-icons">delete</button>
+          <button @click="postStore.savePost(post.id)" class="save material-icons">
+            {{ post.is_saved ? 'bookmark' : 'bookmark_border' }}
+          </button>
         </div>
       </div>
       <h1>{{ post.title }}</h1>

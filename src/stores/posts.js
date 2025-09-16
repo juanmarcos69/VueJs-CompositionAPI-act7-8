@@ -167,6 +167,12 @@ state() {
     ]
   }
 },
+getters: {
+  sorted() {
+    return this.posts.sort((a, b) => new Date(b.created_at) - new Date(a.created_at))
+  }
+},
+
 // methods
 actions: {
   addPost(post) {
@@ -178,6 +184,13 @@ actions: {
       created_at: new Date().toISOString(),
       is_saved: false
     })
+},
+deletePost(id) {
+  this.posts = this.posts.filter((p) => p.id !== id)
+},
+savePost(id) {
+  const post = this.posts.find((p)=> p.id === id)
+    post.is_saved = !post.is_saved
 }
 }
 })
