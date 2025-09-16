@@ -14,7 +14,7 @@
 ![image alt](https://github.com/jeekian11/VueJs-Project/blob/b186de704f341aed5c6d534e9e324cab2ff9c5d6/Screenshot%202025-09-16%20140845.png)
 
 # ![Activity](https://fonts.gstatic.com/s/i/materialicons/bolt/v6/24px.svg)  **Activity** 8
-![image alt]()
+![image alt](https://github.com/jeekian11/VueJs-Project/blob/74b5aa267446b841164966311352655625b6b848/Screenshot%202025-09-16%20145736.png)
 
 # blog-vue
 This template should help get you started developing with Vue 3 in Vite.
