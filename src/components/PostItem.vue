@@ -35,7 +35,7 @@ defineProps({
 
   .header {
     font-size: 12px;
-    background: #006aff;
+    background: #c966ab;
     padding: 1rem;
     display: flex;
     justify-content: space-between;

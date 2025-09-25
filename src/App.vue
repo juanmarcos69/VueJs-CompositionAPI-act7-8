@@ -20,7 +20,7 @@ import { Home, PlusCircle } from 'lucide-vue-next'
 
 <style lang="scss" scoped>
 nav {
-  background: #006aff; /* dark gray */
+  background: #df0c8e; /* dark gray */
   padding: 1rem 2rem;
 
 
@@ -37,7 +37,7 @@ nav {
 
     &:hover {
       background: #5b5d5b00; /* lighter gray */
-      color: #60a5fa;     /* nice blue accent */
+      color: #9e327e;     /* nice blue accent */
     }
   }
 
